@@ -1,0 +1,207 @@
+/* Style the container for resume page 30%/70% */
+.container {
+     display: flex;
+     }
+
+/* Style the first column to take 30% of the width */
+.column1 {
+    flex: 0 0 30%;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    }
+
+/* Style the second column to take the remaining width */
+.column2 {
+    flex: 1;
+    padding: 10px;
+    position: relative;
+    background-color: rgb(255, 255, 246);
+    }
+
+
+body {
+    background-color: rgb(247, 235, 234);}
+
+h1 {
+    /* Big heading Centre */
+    font-family:  trebuchet MS;
+    color: rgb(180, 111, 78);
+    text-align: center;
+    font-size: 40px;
+    }
+
+h2 {
+    /* Secondary Header */
+    font-family: trebuchet MS;
+    color: rgb(218, 149, 118);
+    font-size: 22px;
+    text-align: center;
+    }     
+
+p {
+    /* normal text */
+    font-family: trebuchet MS;
+    color: rgb(187, 132, 110);
+    font-size: 14px;
+    }
+
+h3 {
+    /* 3rd Heading */
+    font-family: trebuchet MS;
+    color: rgb(218, 149, 118);
+    font-size: 18px;
+    }
+
+h4 {
+    /* 4th Heading */
+    font-family: trebuchet MS;
+    color: rgb(218, 149, 118);
+    font-size: 14px;
+    font-weight: bold;
+    }
+
+hr {
+    border-color: rgb(172, 79, 51); 
+    border-width: 2px; 
+    border-style: solid; 
+    width: 90%; 
+    margin: 0 auto;
+    }
+
+/* Indent Normal Text to match line */    
+.indented-text {
+    text-indent: 90px;
+    }
+
+/* Indent Normal Text to match line */    
+.indentedtxtc1 {
+    text-indent: 60px;
+    }
+
+
+/* Indent header 3 to match line */    
+.indented-h3 {
+    text-indent: 90px;
+    }
+
+/* Apply styles to the heading */
+.highlighted-text {
+    background-color: #f5e2dd; 
+    padding: 5px; /* Add padding for spacing */
+    width: 93%;
+    margin: 0 auto;
+    }
+
+ul {
+    list-style-type: disc; /* Use disc bullets, you can change to 'circle' or 'square' */
+    padding-left: 110px; /* Adjust the indentation as needed */
+    font-family: trebuchet MS;
+    color: rgb(187, 132, 110);
+    font-size: 14px;
+    }
+
+ul1 {
+    list-style-type: disc; /* Use disc bullets, you can change to 'circle' or 'square' */
+    padding-left: 100px; /* Adjust the indentation as needed */
+    font-family: trebuchet MS;
+    color: rgb(187, 132, 110);
+    font-size: 14px;
+    }
+    
+/* Style the list items */
+li {
+    margin-bottom: 15px; /* Add spacing between list items */
+    }
+
+
+/* Background color for the second page */
+body.second-page {
+    background-color: rgb(253, 247, 244);
+}
+
+/* style image */
+img {
+    width: 360px;
+    padding-left: 50px;
+    padding-left: 50px;
+}
+
+/* Table */
+table {
+    width: 95%; /* Set the table to take 95% of screen width */
+    border-collapse: collapse;
+    border: 2px solid  rgb(233, 205, 194); /* Add light brown border */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    border-top: 2px solid rgb(233, 205, 194); /* Add top border for th and td */
+    border-right: 2px solid  rgb(233, 205, 194); /* Add right border for th and td */
+    padding-left: 20px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    text-align: left;
+    color: rgb(187, 132, 110); /* Set text color */
+    font-size: 14px; /* Set font size */
+}
+
+th:first-child, td:first-child {
+    width: 30%; /* Set the width of the first column to 20% */
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Style the container for the half half columns */
+.containerpfp {
+    display: flex;
+    }
+
+/* Style the first column to take 50% of the width */
+.column1pfp {
+   flex: 0 0 50%;
+   padding: 10px;
+   padding-left: 200px;
+   }
+
+/* Style the second column to take the remaining width 50%*/
+.column2pfp {
+   flex: 1;
+   padding: 10px;
+   position: relative;
+   padding-right: 120px;
+   }
+
+/* Style for the title with a line underneath */
+.title-with-line {
+    border-bottom: 2px solid rgb(177, 144, 130); /* Light brown line */
+    padding-bottom: 50px; /* Adjust the spacing between the title and the line */
+}
+
+/* Style for the paragraph with padding */
+.p-with-padding {
+    padding: 25px; /* Add padding around the text */
+}
+
+/* Style the container for 40% / 60% (etsy store details) */
+.containerEtsy {
+    display: flex;
+    }
+
+/* Style the first column to take 50% of the width */
+.column1Etsy {
+   flex: 0 0 30%;
+   padding: 10px;
+   padding-left: 175px;
+   }
+
+/* Style the second column to take the remaining width 50%*/
+.column2Etsy {
+   flex: 1;
+   padding: 10px;
+   position: relative;
+   padding-right: 300px;
+   }
+
